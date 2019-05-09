@@ -1,0 +1,375 @@
+body{
+
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(248, 248, 248);
+
+}
+/*global container*/
+.container{
+
+    width:80%;
+    max-width: width 120px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+
+
+header{
+    background-color: rgba(59, 57, 57, 0.966);
+
+    color:white;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom: rgba(39, 252, 85, 0.74) 3px solid;
+}
+.button_1{
+    height:40px;
+    background-color: rgb(25, 0, 255);
+    border: none;
+    color:black;
+    padding-left:10px;
+    padding-right:10px;
+    position: auto;
+    font: bold 13px arial, sans-serif;
+
+    
+}
+.button_2{
+    height:40px;
+    background-color: greenyellow;
+    border: none;
+    color:black;
+    padding-left:10px;
+    padding-right:10px;
+    position: auto;
+    font: bold 13px arial, sans-serif;
+    
+    
+}
+
+ header ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+header ul li{
+    float: left;
+    width:100px;
+    height: 30px;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+}
+
+header #branding{
+    float: left;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: white;
+    display:block;
+    z-index: 2;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: rgba(59, 57, 57, 0.966);
+}
+header ul li a:hover{
+
+}
+
+header ul li ul li{
+    padding-left: 0;
+    display: none;
+
+}
+header ul li:hover ul li {
+    display: block;
+
+}
+header #branding h1{
+
+    margin:0;
+}
+
+header nav{
+    float: right;
+    margin-top: -50px;
+}
+header .blue{
+    color:blue;
+    font-weight: bold;
+    font-size:35px;
+
+
+}
+header .green{
+    color: rgb(19, 233, 19);
+    font-weight: bold;
+    font-size:35px;
+}
+header a:hover{
+    font-weight: bold;
+}
+#showcase{
+    height:800px;
+    background:url('../img/background.jpg') no-repeat 0-200px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    object-fit: cover;
+    z-index: 0;
+    overflow:hidden;
+    padding-top: 0;
+    object-fit: cover;
+}
+img{
+    
+}
+
+#showcase h1{
+margin-top: 300px;
+font-size: 30px;
+}
+#showcase h6{
+    margin-top:-15px;
+    font-size: 15px;
+}
+
+
+.intro-item1{
+    display:flex;
+    align-items: left;
+    justify-content: center;
+    
+}
+.intro-item2{
+    display:flex;
+    align-items: right;
+    justify-content: center;
+    
+}
+
+.introduction-item{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+
+
+}
+.introduction-item:last-child{
+    margin-bottom: 0;
+}
+.intro-item1 .introduction-details h1{
+    font-size: 40px;
+    width : 30%;
+    margin-left:200px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.intro-item1 .introduction-details p {
+    font-size: 20px;
+    width : 70%;
+    margin-left:200px;
+    margin-top: 30px;
+    height:20px;
+    line-height:2.5rem;
+}
+.intro-item2{
+    margin-left: -50px;
+}
+.intro-item2 .introduction-details h1{
+    font-size: 40px;
+    width : 30%;
+    margin-left:60px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+.intro-item2 .introduction-details p {
+    font-size: 20px;
+    width : 70%;
+    margin-left:60px;
+    margin-top: 30px;
+    height:8px;
+    line-height:2.5rem;
+}
+
+
+
+.introduction-img{
+    min-height: 500px;
+    width: 40%;
+    height:70px;
+    margin-right: 20px;
+
+}
+.intro-item2 .introduction-img{
+
+ margin-right: 120px;
+}
+
+/*About*/
+.about{
+    background:url('../img/about.jpg') no-repeat 0-200px;
+   width: 1 00%;
+   height: 400px;
+   margin: 0;
+   padding:0;
+   object-fit: cover;
+
+
+}
+.aboutus{
+    margin: 20px 1400px 30px 100px;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size:35px;
+/*
+    background-color: rgb(15, 157, 223);
+    border-radius: 1rem;
+*/
+}
+.about-details p{
+font-size: 20px;
+color: black;
+text-align: left;
+margin: 5px 700px 10px 160px;
+
+}
+.about-details .second{
+margin-bottom: 100px;
+}
+
+.button-details{
+text-align: center;
+align-items: center;
+margin-top:300px;
+margin-bottom: 100px;
+font-size: 20px;
+
+
+
+}
+
+.button_contact{
+    height:40px;
+    background-color: greenyellow;
+    border: none;
+    color:black;
+    padding-top: 23px;
+    padding-bottom: 33px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border-radius: 0.3rem;
+    position: auto;
+    font: bold 16px arial, sans-serif;
+    
+
+}
+
+/*start contact*/
+.container1 h1{
+    text-align:center;
+    font-size: 30px;
+}
+#name, #email {
+    width: 35%;
+    margin-left: 70px;
+}
+#subject, #service{
+    width: 37%;
+    margin-left: 70px;
+    float: left;
+
+}
+
+
+form{
+    width:50%;
+    margin: 0 auto;
+
+}
+form label{
+    font-size:2rem;
+
+}
+input,select,textarea{
+    width: 100%;
+    margin-bottom: 25px;
+    border: none;
+    outline-color: greenyellow;
+    align-items: center;
+    padding:7px;
+    margin-left:70px;
+    
+    
+}
+textarea{
+    width: 76%;
+}
+
+input[type="submit"]{
+    display: block;
+    width: initial;
+    background-color: greenyellow;
+    color:black;
+    font:bold 1.0rem arial, sans-serif;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+    cursor: pointer;
+    transition: background-color 650ms;
+
+
+}
+.contactinfo h1{
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 50px;
+    
+
+
+}
+
+/*end contact*/
+
+footer{
+    overflow: hidden;
+
+    border-top: rgba(39, 252, 85, 0.897) 3px solid;
+    padding: 20px;
+    margin-top: -20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.social-media ul li {
+    list-style: none;
+    font-size:30px;
+    padding:5px 5px;
+    border-radius: 50%;
+    float:right;
+    margin-top: -50px;
+    margin-left: 20px;
+    position: relative;
+
+}
+
+.twitter :last-child {
+margin-right: 300px;
+
+}
+
+.social-media ul li a{
+    color: white;
+    border-radius: 50%;
+}
